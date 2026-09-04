@@ -1,0 +1,41 @@
+﻿@page
+@model project_aurora.Pages.loginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="~/css/log-reg-style.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a asp-page="/Login">Profile</a>
+            <a asp-page="/Compiler">Compiler</a>
+            <a asp-page="/Index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/Challenges">Challenges</a>
+            <a asp-page="/Community">Community</a>
+        </div>
+    </nav>
+
+    <div class="log-container">
+        <form method="post">
+
+            <label for="credential">Email or Username:</label><br />
+            <input type="text" placeholder="Please enter your email or username" name="credential" /><br />
+
+            <label for="password">Password:</label><br />
+            <input type="password" placeholder="Please enter your password" name="password" /><br />
+
+            <button type="submit">Login</button>
+
+        </form>
+
+        
+    </div>
+
+    <a id="reg-link" asp-page="/Register">Unregistered? Create an Account here!</a>
+</body>

@@ -1,0 +1,38 @@
+﻿@page
+@model project_aurora.Pages.compilerModel
+@{
+    ViewData["Title"] = "Compiler";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link href="~/css/compiler-style.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a asp-page="/Login">Profile</a>
+            <a asp-page="/Compiler">Compiler</a>
+            <a asp-page="/Index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/Challenges">Challenges</a>
+            <a asp-page="/Community">Community</a>
+        </div>
+    </nav>
+
+    <textarea class="compiler-window">
+        //Type Something;
+    </textarea>
+    <div class="lower-menu">
+        <div class="left-option-menu">
+            <button id="#run-button"> <img src="/images/run-button.png" /> </button>
+            <button id="#notification-button"> <img src="/images/note-button.png" /> </button>
+            <button id="#share-button"> <img src="/images/share-button.png"/> </button>
+        </div>
+        <textarea class="output-window">
+            //Outputs and problems appear here;
+        </textarea>
+        
+    </div>
+</body>

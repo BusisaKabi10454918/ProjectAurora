@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="~/css/index-style.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a asp-page="/Login">Profile</a>
+            <a asp-page="/Compiler">Compiler</a>
+            <a asp-page="/Index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/Challenges">Challenges</a>
+            <a asp-page="/Community">Community</a>
+        </div>
+    </nav>
+
+    <div class="banner-image">
+        <img src="~/images/home_banner.png"/>
+    </div>
+
+    <div class="page-section">
+
+        <p id="page-heading">United In Knowledge</p>
+
+        <div class="black-bar"></div>
+
+        <div class="paragraph-section">
+
+            <div class="logo"><img src="~/images/inner-page-logo.png"/></div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+</body>
+

@@ -1,0 +1,105 @@
+﻿body {
+    background-color: #1b17ff;
+    margin: 0;
+    padding: 0;
+    font-family: "LINE Seed JP"
+}
+
+nav {
+    background-color: #F4F4F4;
+    min-height: 80px;
+    height: 100px;
+    align-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    align-content: center;
+}
+
+.log-container{
+    margin-top: 5%;
+    margin-left: 20%;
+    
+    background-color: #D9D9D9;
+    height: 400px;
+    width: 800px;
+    border-radius: 30px;
+    padding: 2%;
+
+    align-items: center;
+}
+
+form{
+    margin-top: 5%;
+    margin-left: 5%;
+    align-items:center;
+    justify-content: center;
+}
+
+.reg-container {
+    margin-top: 5%;
+    margin-left: 20%;
+
+    background-color: #D9D9D9;
+    height: 900px;
+    width: 800px;
+    padding: 2%;
+    border-radius: 30px;
+
+    align-items: center;
+}
+
+label{
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+input {
+    background-color: #F4F4F4;
+    text-align: start;
+    width: 600px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+button {
+    background-color: #020081;
+    text-align: center;
+    align-self: center;
+    border-radius: 15px;
+
+    margin-left: 35%;
+
+    height: 40px;
+    width: 125px;
+    color: white;
+}
+
+#reg-link {
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+#log-link {
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    margin-top: 2%;
+    margin-left: 40%;
+}
