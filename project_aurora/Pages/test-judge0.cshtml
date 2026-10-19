@@ -1,0 +1,98 @@
+﻿@page
+@model project_aurora.Pages.TestJudge0Model
+
+<h1>Judge0 Code Runner</h1>
+
+<form method="post">
+    <div>
+        <label asp-for="LanguageId">Language</label>
+        <select asp-for="LanguageId">
+            <option value="46">Bash</option>
+            <option value="62">Java</option>
+            <option value="51">C# (Mono)</option>
+        </select>
+    </div>
+
+    <div>
+        <label asp-for="SourceCode">Source code</label>
+        <textarea asp-for="SourceCode"
+                  rows="15"
+                  cols="80"
+                  placeholder="Write your code here..."></textarea>
+    </div>
+
+    <button type="submit">Run Code</button>
+</form>
+
+
+<script>
+    const editor = document.getElementById("SourceCode");
+
+    editor.addEventListener("keydown", function (e) {
+        if (e.key === "Tab") {
+            e.preventDefault();
+
+            const start = editor.selectionStart;
+            const end = editor.selectionEnd;
+
+            // Insert four spaces, replacing any selected text.
+            editor.setRangeText(
+                "    ",
+                start,
+                end,
+                "end"
+            );
+        }
+    });
+</script>
+
+
+@if (Model.Result is not null)
+{
+    <h2>Execution Result</h2>
+
+    <p>
+        <strong>Status:</strong>
+        @(Model.Result.Status?.Description ?? "Unknown")
+    </p>
+
+    @if (!string.IsNullOrWhiteSpace(Model.Result.Stdout))
+    {
+        <h3>Program Output</h3>
+        <pre>@Model.Result.Stdout</pre>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(Model.Result.CompileOutput))
+    {
+        <h3>Compilation Output</h3>
+        <pre>@Model.Result.CompileOutput</pre>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(Model.Result.Stderr))
+    {
+        <h3>Runtime Error</h3>
+        <pre>@Model.Result.Stderr</pre>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(Model.Result.Message))
+    {
+        <h3>Message</h3>
+        <pre>@Model.Result.Message</pre>
+    }
+
+    <p>
+        <strong>Execution time:</strong>
+        @(Model.Result.Time ?? "N/A") s
+    </p>
+
+    <p>
+        <strong>Memory used:</strong>
+        @(Model.Result.Memory?.ToString() ?? "N/A") KB
+    </p>
+}
+
+@if (Model.Error is not null)
+{
+    <h2>Request Error</h2>
+    <pre>@Model.Error</pre>
+}

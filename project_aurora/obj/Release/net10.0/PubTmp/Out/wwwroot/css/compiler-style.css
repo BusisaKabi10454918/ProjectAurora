@@ -1,0 +1,64 @@
+﻿body {
+    background-color: #1b17ff;
+    margin: 0;
+    padding: 0;
+    font-family: "LINE Seed JP"
+}
+
+.compiler-window{
+    background-color: white;
+    color: dimgrey;
+    height: 350px;
+    width: 100vw;
+    text-align: left;
+    padding: 0%;
+}
+
+nav {
+    background-color: #F4F4F4;
+    min-height: 80px;
+    height: 100px;
+    align-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    align-content: center;
+}
+
+.output-window{
+    color: #444444;
+    background-color: #d9d9d9;
+    width: 99%;
+}
+
+.lower-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-option-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #444444;
+    height: 100vh;
+}
+
+.left-option-menu img {
+        width: 20px;
+        height: 20px;
+}
+
+.left-option-menu button{
+    background-color: #444444;
+}
+

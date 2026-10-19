@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\com-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\challenges.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\challenges.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "community.cshtml",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\community.cshtml",
-              "RelativeDocumentMoniker": "Pages\\community.cshtml",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\community.cshtml",
-              "RelativeToolTip": "Pages\\community.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T21:04:36.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index-style.css",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\index-style.css",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css",
-              "RelativeToolTip": "wwwroot\\css\\index-style.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-09-04T21:00:58.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "challenges.cshtml",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\challenges.cshtml",
-              "RelativeDocumentMoniker": "Pages\\challenges.cshtml",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\challenges.cshtml",
-              "RelativeToolTip": "Pages\\challenges.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T20:59:11.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "com-styles.css",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\com-styles.css",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css",
-              "RelativeToolTip": "wwwroot\\css\\com-styles.css",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwFIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-09-04T20:52:48.005Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -1,0 +1,11 @@
+### Check Judge0 languages
+GET http://localhost:2358/languages
+
+### Execute a Bash submission
+POST http://localhost:2358/submissions?base64_encoded=false&wait=true
+Content-Type: application/json
+
+{
+  "source_code": "echo \"Hello from my MVC project!\"",
+  "language_id": 46
+}

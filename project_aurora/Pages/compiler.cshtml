@@ -21,18 +21,40 @@
         </div>
     </nav>
 
-    <textarea class="compiler-window">
-        //Type Something;
-    </textarea>
-    <div class="lower-menu">
-        <div class="left-option-menu">
-            <button id="#run-button"> <img src="/images/run-button.png" /> </button>
-            <button id="#notification-button"> <img src="/images/note-button.png" /> </button>
-            <button id="#share-button"> <img src="/images/share-button.png"/> </button>
+    
+    <form method="post" id="compiler-form">
+        <div class="language-menu">
+            <label asp-for="LanguageId">Language:</label>
+            <select asp-for="LanguageId">
+                <option value="46">Bash</option>
+                <option value="62">Java</option>
+                <option value="51">C#</option>
+            </select>
         </div>
-        <textarea class="output-window">
-            //Outputs and problems appear here;
-        </textarea>
-        
-    </div>
+
+        <textarea asp-for="SourceCode"
+                  class="compiler-window"
+                  placeholder="// Type your code here..."
+                  spellcheck="false"></textarea>
+
+        <div class="lower-menu">
+            <div class="left-option-menu">
+                <button type="submit" id="run-button">
+                    <img src="/images/run-button.png" alt="Run code" />
+                </button>
+
+                <button type="button" id="notification-button">
+                    <img src="/images/note-button.png" alt="Notifications" />
+                </button>
+
+                <button type="button" id="share-button">
+                    <img src="/images/share-button.png" alt="Share code" />
+                </button>
+            </div>
+
+            <textarea class="output-window"
+                      readonly
+                      placeholder="Output and errors appear here...">@Model.Output</textarea>
+        </div>
+    </form>
 </body>
