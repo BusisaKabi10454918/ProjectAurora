@@ -1,0 +1,71 @@
+﻿@page
+@model project_aurora.Pages.challengesModel
+@{
+    ViewData["Title"] = "Challenges";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges</title>
+    <link href="~/css/com-styles.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a asp-page="/Login">Profile</a>
+            <a asp-page="/Compiler">Compiler</a>
+            <a asp-page="/Index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/Challenges">Challenges</a>
+            <a asp-page="/Community">Community</a>
+        </div>
+    </nav>
+
+    <div class="challenge-stub">
+        <img src="~/images/challenge-icon.png" />
+
+        <div class="challenge-content">
+            <p class="challenge-name">Challenge Ready</p>
+            <div class="black-bar"></div>
+            <p class="challenge-content">
+				Programmers Right of Passage: Print "Hello, World!" to the console. Simple, but a classic first step in programming. Difficulty: Easy. Languages: Any.
+            </p>
+        </div>
+    </div>
+
+    <div class="challenge-stub">
+        <img src="~/images/challenge-icon.png" />
+
+        <div class="challenge-content">
+            <p class="challenge-name">Challenge Ready</p>
+            <div class="black-bar"></div>
+            <p class="challenge-content">
+				Child's Play: Create a chaotic array of random numbers and sort them in ascending order. Difficulty: Easy. Languages: Any.'
+            </p>
+        </div>
+    </div>
+
+    <div class="challenge-stub">
+        <img src="~/images/challenge-icon.png" />
+
+        <div class="challenge-content">
+            <p class="challenge-name">Challenge Ready</p>
+            <div class="black-bar"></div>
+            <p class="challenge-content">
+				Java Basic: Simulate a user making a purchase in an online store. Through the console.Difficulty: Medium. Languages: Java.
+            </p>
+        </div>
+    </div>
+
+    <div class="challenge-stub">
+        <img src="~/images/challenge-icon.png" />
+
+        <div class="challenge-content">
+            <p class="challenge-name">Challenge Ready</p>
+            <div class="black-bar"></div>
+            <p class="challenge-content">
+				Bash em up: Write a bash script that creates two sub folders and subdirectories in each of them. Difficulty: Medium. Languages: Bash.
+            </p>
+        </div>
+    </div>
+</body>

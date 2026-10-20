@@ -1,12 +1,173 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\users\\logged_community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\users\\logged_community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\com-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\users\\logged_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\users\\logged_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "community.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\community.cshtml",
+              "RelativeDocumentMoniker": "Pages\\community.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\community.cshtml",
+              "RelativeToolTip": "Pages\\community.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEEAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T15:34:55.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "com-styles.css",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\com-styles.css",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css",
+              "RelativeToolTip": "wwwroot\\css\\com-styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-20T15:19:36.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "logged_community.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_community.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Users\\logged_community.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_community.cshtml",
+              "RelativeToolTip": "Pages\\Users\\logged_community.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEIAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T15:17:44.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index-style.css",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\index-style.css",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css",
+              "RelativeToolTip": "wwwroot\\css\\index-style.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-20T15:12:02.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "logged_Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Users\\logged_Index.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_Index.cshtml",
+              "RelativeToolTip": "Pages\\Users\\logged_Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T15:08:49.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Users\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\Profile.cshtml",
+              "RelativeToolTip": "Pages\\Users\\Profile.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T15:03:31.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\login.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml",
+              "RelativeToolTip": "Pages\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T14:35:13.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\login.cshtml.cs",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml.cs",
+              "RelativeToolTip": "Pages\\login.cshtml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T14:33:52.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T10:40:11.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

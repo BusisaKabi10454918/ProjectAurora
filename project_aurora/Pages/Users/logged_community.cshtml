@@ -1,0 +1,133 @@
+﻿@page
+@model project_aurora.Pages.communityModel
+@{
+    ViewData["Title"] = "Community";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link href="~/css/com-styles.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a asp-page="/Login">Profile</a>
+            <a asp-page="/Compiler">Compiler</a>
+            <a asp-page="/Index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/Challenges">Challenges</a>
+            <a asp-page="/Community">Community</a>
+        </div>
+    </nav>
+
+    <main class="posts-list">
+        <div class="question-stub">
+            <p class="question-name">
+                CodeNerd21 Asks: What programming language did you learn first?
+            </p>
+            <div class="lower-stub">
+                <div class="options-menu">
+                    <div id="answer-option" class="menu-option"> <img src="~/images/answers-icon.png" /> 12 Answers</div>
+                    <div id="votes-option" class="menu-option"> <img src="~/images/votes-icon.png" /> 19 votes</div>
+                    <div id="views-option" class="menu-option"> <img src="~/images/views-icon.png" /> 75 Views</div>
+                </div>
+
+                <p class="question-description">
+                    Mine was Python, mostly because the syntax looked less intimidating. Curious what everyone else started with and whether you'd choose the same language again.
+                </p>
+            </div>
+        </div>
+
+        <div class="question-stub">
+            <p class="question-name">
+                ByteBuilder Asks: How do you guys debug code when nothing seems wrong?
+            </p>
+            <div class="lower-stub">
+                <div class="options-menu">
+                    <div id="answer-option" class="menu-option"> <img src="~/images/answers-icon.png" /> 8 Answers</div>
+                    <div id="votes-option" class="menu-option"> <img src="~/images/votes-icon.png" /> 17 votes</div>
+                    <div id="views-option" class="menu-option"> <img src="~/images/views-icon.png" /> 25 Views</div>
+                </div>
+
+                <p class="question-description">
+                    I've been staring at the same bug for 30 minutes. The code looks right, the program disagrees. Do you use breakpoints, print statements, or just take a break and come back?
+                </p>
+            </div>
+        </div>
+
+        <div class="question-stub">
+            <p class="question-name">
+                StackSprout Asks: Feature suggestion: save previous code submissions
+            </p>
+            <div class="lower-stub">
+                <div class="options-menu">
+                    <div id="answer-option" class="menu-option"> <img src="~/images/answers-icon.png" /> 14 Answers</div>
+                    <div id="votes-option" class="menu-option"> <img src="~/images/votes-icon.png" /> 17 votes</div>
+                    <div id="views-option" class="menu-option"> <img src="~/images/views-icon.png" /> 25 Views</div>
+                </div>
+
+                <p class="question-description">
+                    It would be really useful to see previous attempts, especially when debugging a challenge. Being able to compare an old solution with a new one would save a lot of time.
+                </p>
+            </div>
+        </div>
+
+        <div class="question-stub">
+            <p class="question-name">
+                NullPointer Asks: What's one programming mistake you'll never make again?
+            </p>
+            <div class="lower-stub">
+                <div class="options-menu">
+                    <div id="answer-option" class="menu-option"> <img src="~/images/answers-icon.png" /> XX Answers</div>
+                    <div id="votes-option" class="menu-option"> <img src="~/images/votes-icon.png" /> XX votes</div>
+                    <div id="views-option" class="menu-option"> <img src="~/images/views-icon.png" /> XX Views</div>
+                </div>
+
+                <p class="question-description">
+                    I'll go first: forgetting to check whether a collection is empty before accessing its first element. A lesson learned the hard way.
+                </p>
+            </div>
+        </div>
+
+        <div class="question-stub">
+            <p class="question-name">
+                DevQuest Asks: What makes a coding challenge genuinely good?
+            </p>
+            <div class="lower-stub">
+                <div class="options-menu">
+                    <div id="answer-option" class="menu-option"> <img src="~/images/answers-icon.png" />10 Answers</div>
+                    <div id="votes-option" class="menu-option"> <img src="~/images/votes-icon.png" /> 19 votes</div>
+                    <div id="views-option" class="menu-option"> <img src="~/images/views-icon.png" /> 30 Views</div>
+                </div>
+
+                <p class="question-description">
+                    Should challenges focus on problem-solving, real-world applications, or testing how well you know a language? I think the best ones combine all three.
+                </p>
+            </div>
+        </div>
+
+        <div class="question-stub">
+            <p class="question-name">
+                LoopLogic Asks: What's your favourite way to learn something new?
+            </p>
+            <div class="lower-stub">
+                <div class="options-menu">
+                    <div id="answer-option" class="menu-option"> <img src="~/images/answers-icon.png" /> 14 Answers</div>
+                    <div id="votes-option" class="menu-option"> <img src="~/images/votes-icon.png" /> 26 votes</div>
+                    <div id="views-option" class="menu-option"> <img src="~/images/views-icon.png" /> 35 Views</div>
+                </div>
+
+                <p class="question-description">
+                    Is there a way you guys prefer to learn new programming concepts? I personally like to read documentation and then immediately try to implement what I've learned in a small project. What about you guys?
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <aside class="community-sidebar">
+        <button class="new-question">New Question</button>
+    </aside>
+
+</body>

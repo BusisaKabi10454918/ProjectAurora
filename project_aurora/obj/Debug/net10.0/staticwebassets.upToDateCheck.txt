@@ -1,4 +1,3 @@
-wwwroot\css\com-styles.css
 wwwroot\css\compiler-style.css
 wwwroot\css\index-style.css
 wwwroot\css\log-reg-style.css
@@ -80,7 +79,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\css\com-styles.css
+wwwroot\css\com-styles.css
 C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\css\compiler-style.css
 C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\css\index-style.css
 C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\css\log-reg-style.css
@@ -146,3 +145,4 @@ C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\lib\jquery
 C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\wwwroot\css\com-styles.css

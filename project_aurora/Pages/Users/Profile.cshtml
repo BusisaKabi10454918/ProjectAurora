@@ -1,0 +1,46 @@
+﻿@page
+@model project_aurora.Pages.Users.ProfileModel
+@{
+	ViewData["Title"] = "Profile";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="~/css/index-style.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a asp-page="/Users/Profile">Profile</a>
+            <a asp-page="/Users/logged_compiler">Compiler</a>
+            <a asp-page="/Users/logged_Index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/Users/logged_challenges">Challenges</a>
+            <a asp-page="/Users/logged_community">Community</a>
+        </div>
+    </nav>
+
+    <div class="banner-space">
+        <h1>&lt;Profile Username/&gt;</h1>
+    </div>
+
+    <div class="page-section">
+
+        <p id="page-heading">United In Knowledge</p>
+
+        <div class="black-bar"></div>
+
+        <div class="paragraph-section">
+
+            <div class="logo"><img src="~/images/inner-page-logo.png" /></div>
+
+            <p>
+                The aurora project is a community-drive initiative, built to provide a platform for developers of all types,
+                backgrounds and experiences a space to collaborate and learn with a practical approach to coding and an in-house challenge and support system.
+                This installation comes with a range of features designed to enhance the learning experience and foster a supportive community environment.
+                As well as the compiler for developers to work with.
+            </p>
+        </div>
+    </div>
+</body>
