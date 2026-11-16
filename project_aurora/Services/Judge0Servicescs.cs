@@ -23,9 +23,8 @@ public class Judge0Service
             language_id = languageId
         };
 
-        var url =
-            "http://localhost:2358/submissions" +
-            "?base64_encoded=false&wait=true";
+        const string url =
+            "submissions?base64_encoded=false&wait=true";
 
         var response = await _httpClient.PostAsJsonAsync(
             url, submission);

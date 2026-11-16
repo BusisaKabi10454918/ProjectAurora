@@ -5,14 +5,14 @@ namespace project_aurora.Models;
 
 public class CommunityPost
 {
-    public int Id { get; set; }
+    public Guid ID { get; set; } = Guid.NewGuid();
 
     [Required]
     [StringLength(150)]
     public string Title { get; set; } = string.Empty;
 
     [Required]
-    public int PosterId { get; set; }
+    public Guid PosterId { get; set; }
 
     [ForeignKey(nameof(PosterId))]
     public User? Poster { get; set; }

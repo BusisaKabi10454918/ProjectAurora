@@ -7,17 +7,23 @@
 
 nav {
     background-color: #F4F4F4;
-    min-height: 80px;
-    height: 100px;
-    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 15px 0;
+}
+
+nav img {
+    max-height: 70px;
+    width: auto;
+    object-fit: contain;
 }
 
 .links {
     display: flex;
-    justify-content: space-around;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 20px;
+    gap: 120px;
 }
 
 a {
@@ -26,82 +32,176 @@ a {
     align-content: center;
 }
 
-.log-container{
-    margin-top: 5%;
-    margin-left: 20%;
-    
+.log-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #D9D9D9;
-    height: 400px;
-    width: 800px;
-    border-radius: 30px;
-    padding: 2%;
-
-    align-items: center;
-}
-
-form {
-    margin-top: 5%;
-    margin-left: 5%;
-    padding: 2%;
-    align-items: center;
-    justify-content: center;
-}
-
-.reg-container {
-    margin-top: 5%;
-    margin-left: 20%;
-
-    background-color: #D9D9D9;
-    height: 900px;
-    width: 800px;
-    padding: 2%;
-    border-radius: 30px;
-
-    align-items: center;
-}
-
-label{
-    text-align: left;
-    margin-bottom: 2%;
-}
-
-input {
-    background-color: #F4F4F4;
-    text-align: start;
     width: 600px;
-    height: 50px;
-    border-radius: 15px;
-    padding-left: 2%;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    min-height: 400px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 35px;
+    margin: 40px auto 0;
+    max-width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
-button {
-    background-color: #020081;
-    text-align: center;
-    align-self: center;
+.log-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 450px;
+
+    margin: 0 auto;
+    padding: 0;
+}
+
+.log-container label {
+    align-self: flex-start;
+}
+
+.log-container input {
+    background-color: #F4F4F4;
+
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+
+    border: none;
     border-radius: 15px;
 
-    margin-left: 35%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
 
-    height: 40px;
-    width: 125px;
+.log-container button {
+    background-color: #020081;
     color: white;
+
+    width: 125px;
+    height: 40px;
+
+    border: none;
+    border-radius: 15px;
+
+    align-self: center;
+    cursor: pointer;
+
+    margin-top: 10px;
 }
 
 #reg-link {
-    display: flex;
+    display: block;
     color: white;
     text-decoration: underline;
-    margin-top: 2%;
-    margin-left: 35%;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.reg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 800px;
+    min-height: 900px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 35px;
+    margin: 40px auto 0;
+    max-width: calc(100% - 40px);
+}
+
+.reg-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.reg-container label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.reg-container input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 15px;
+
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.reg-container button {
+    background-color: #020081;
+    color: white;
+
+    width: 125px;
+    height: 40px;
+
+    border: none;
+    border-radius: 15px;
+
+    align-self: center;
+    margin: 10px 0 0;
+
+    cursor: pointer;
 }
 
 #log-link {
-    display: flex;
+    display: block;
     color: white;
     text-decoration: underline;
-    margin-top: 2%;
-    margin-left: 40%;
+    text-align: center;
+    margin: 20px auto 0;
     padding-bottom: 5%;
+}
+
+.validation-popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    max-width: 90%;
+}
+
+.popup-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.popup-content button {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.validation-popup.active {
+    display: flex;
+}
+
+#error-message,
+#success-message {
+    white-space: pre-line;
 }

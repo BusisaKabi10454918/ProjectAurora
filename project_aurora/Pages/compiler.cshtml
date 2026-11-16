@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community</title>
+    <title>Compiler</title>
     <link href="~/css/compiler-style.css" rel="stylesheet">
     <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
 </head>
@@ -22,6 +22,8 @@
     </nav>
 
     
+
+    
     <form method="post" id="compiler-form">
         <div class="language-menu">
             <label asp-for="LanguageId">Language:</label>
@@ -32,11 +34,11 @@
             </select>
         </div>
 
-        <textarea asp-for="SourceCode"
+        <textarea id="SourceCode" asp-for="SourceCode"
                   class="compiler-window"
                   placeholder="// Type your code here..."
                   spellcheck="false"></textarea>
-
+                  
         <div class="lower-menu">
             <div class="left-option-menu">
                 <button type="submit" id="run-button">
@@ -57,4 +59,6 @@
                       placeholder="Output and errors appear here...">@Model.Output</textarea>
         </div>
     </form>
+
+    <script src="~/js/tab_function.js"></script>
 </body>

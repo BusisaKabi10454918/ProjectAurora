@@ -4,7 +4,23 @@ namespace project_aurora.Models;
 
 public class User
 {
-    public int Id { get; set; }
+    public User()
+    {
+
+    }
+
+    public User(string firstname, string lastname, string username, string email, string passwordHash, bool adminStatus)
+    {
+        FirstName = firstname;
+        LastName = lastname;
+        Username = username;
+        Email = email;
+        PasswordHash = passwordHash;
+        isAdmin = adminStatus;
+    }
+
+    [Key]
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     [Required]
     [StringLength(50)]

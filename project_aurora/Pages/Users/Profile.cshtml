@@ -7,40 +7,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link href="~/css/index-style.css" rel="stylesheet">
+    <link href="~/css/profile-style.css" rel="stylesheet">
     <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
 </head>
 <body>
     <nav>
         <div class="links">
             <a asp-page="/Users/Profile">Profile</a>
-            <a asp-page="/Users/logged_compiler">Compiler</a>
-            <a asp-page="/Users/logged_Index"><img src="~/images/navigation-logo.png" /></a>
-            <a asp-page="/Users/logged_challenges">Challenges</a>
-            <a asp-page="/Users/logged_community">Community</a>
+            <a asp-page="/compiler">Compiler</a>
+            <a asp-page="/index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/challenges">Challenges</a>
+            <a asp-page="/community">Community</a>
         </div>
     </nav>
 
     <div class="banner-space">
-        <h1>&lt;Profile Username/&gt;</h1>
+        <h1>&lt;@Model.userProfile?.Username/&gt;</h1>
     </div>
 
     <div class="page-section">
 
-        <p id="page-heading">United In Knowledge</p>
+        <div class="profile-box-a">
+            <img src="~/images/profile-placeholder.png" alt="Profile picture" />
 
-        <div class="black-bar"></div>
+            <p>@Model.userProfile?.Username</p>
 
-        <div class="paragraph-section">
+            <button type="button" id="changeUsernameBtn">
+                Change Username
+            </button>
 
-            <div class="logo"><img src="~/images/inner-page-logo.png" /></div>
+            <div id="usernamePopup" class="popup-overlay">
+                <div class="popup-content">
+                    <h2>Change Username</h2>
 
-            <p>
-                The aurora project is a community-drive initiative, built to provide a platform for developers of all types,
-                backgrounds and experiences a space to collaborate and learn with a practical approach to coding and an in-house challenge and support system.
-                This installation comes with a range of features designed to enhance the learning experience and foster a supportive community environment.
-                As well as the compiler for developers to work with.
-            </p>
+                    <form method="post" asp-page-handler="ChangeUsername">
+                        <label for="NewUsername">New Username</label>
+                        <input type="text" id="NewUsername" name="NewUsername"
+                               placeholder="Enter new username" required />
+
+                        <div class="popup-buttons">
+                            <button type="submit">Confirm</button>
+                            <button type="button" id="cancelUsernameBtn">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-box-b">
+            
+            <h3> Profile details</h3>
+
+            <div class="black-bar"></div>
+
+            <p>Challenges attempted: @Model.userSubmissions.Count</p><br />
+
+            <p>Date joined: @Model.userProfile?.CreatedAt</p> <br />
+           
+            <div class="language-graph">
+                <!-- Language usage graph -->
+            </div>
         </div>
     </div>
+    <script src="~/js/change_popup.js"></script>
+    
 </body>

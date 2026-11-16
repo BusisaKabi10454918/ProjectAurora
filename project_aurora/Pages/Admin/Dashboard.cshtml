@@ -1,0 +1,54 @@
+﻿@page
+@model project_aurora.Pages.Admin.AdminModel
+@{
+	ViewData["Title"] = "Admin";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="~/css/dash-styles.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon/">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <a asp-page="/Login">Profile</a>
+            <a asp-page="/Compiler">Compiler</a>
+            <a asp-page="/Index"><img src="~/images/navigation-logo.png" /></a>
+            <a asp-page="/Challenges">Challenges</a>
+            <a asp-page="/Community">Community</a>
+        </div>
+    </nav>
+
+    <h1 class="page-heading">&lt;/Welcome Admin&gt;</h1>
+
+    <div class="admin-menu">
+
+        <button type="button" class="admin-button">
+            Manage Users
+        </button>
+
+        <button type="button" class="admin-button">
+            Manage Challenges
+        </button>
+
+        <button type="button" class="admin-button">
+            Manage Community
+        </button>
+
+        <button type="button" class="admin-button">
+            Modern Settings
+        </button>
+
+        <button type="button" class="admin-button">
+            Add New Challenge
+        </button>
+
+        <button type="button" class="logout-button">
+            Log Out
+        </button>
+
+    </div>
+    
+</body>

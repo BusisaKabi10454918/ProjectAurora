@@ -1,38 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\",
+  "WorkspaceRootPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\com-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\dash-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\dash-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\users\\logged_community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\users\\logged_community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\pages\\compiler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\compiler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\js\\tab_function.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\js\\tab_function.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\profile-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\profile-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\pages\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\users\\logged_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\users\\logged_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\pages\\users\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\users\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\index-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\compiler-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\compiler-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\log-reg-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:wwwroot\\css\\log-reg-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\project_aurora_community_judge0build\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C61278-588C-7BAA-BF0B-A71046BC56E3}|project_aurora.csproj|solutionrelative:pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "com-styles.css",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\com-styles.css",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\com-styles.css",
-              "RelativeToolTip": "wwwroot\\css\\com-styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-10-20T15:19:36.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "logged_community.cshtml",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_community.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Users\\logged_community.cshtml",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_community.cshtml",
-              "RelativeToolTip": "Pages\\Users\\logged_community.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-20T15:17:44.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index-style.css",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\index-style.css",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\wwwroot\\css\\index-style.css",
-              "RelativeToolTip": "wwwroot\\css\\index-style.css",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-10-20T15:12:02.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "logged_Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Users\\logged_Index.cshtml",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\logged_Index.cshtml",
-              "RelativeToolTip": "Pages\\Users\\logged_Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Title": "compiler.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\compiler.cshtml",
+              "RelativeDocumentMoniker": "Pages\\compiler.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\compiler.cshtml",
+              "RelativeToolTip": "Pages\\compiler.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-20T15:08:49.984Z",
+              "WhenOpened": "2026-11-16T20:46:46.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\Profile.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Users\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\Users\\Profile.cshtml",
-              "RelativeToolTip": "Pages\\Users\\Profile.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-20T15:03:31.693Z",
+              "Title": "tab_function.js",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\js\\tab_function.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\tab_function.js",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\js\\tab_function.js",
+              "RelativeToolTip": "wwwroot\\js\\tab_function.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-16T20:46:07.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "login.cshtml",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml",
-              "RelativeDocumentMoniker": "Pages\\login.cshtml",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml",
-              "RelativeToolTip": "Pages\\login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-20T14:35:13.947Z",
+              "DocumentIndex": 4,
+              "Title": "profile-style.css",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\profile-style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\profile-style.css",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\profile-style.css",
+              "RelativeToolTip": "wwwroot\\css\\profile-style.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-16T20:02:40.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\login.cshtml.cs",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Pages\\login.cshtml.cs",
-              "RelativeToolTip": "Pages\\login.cshtml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswCgAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T14:33:52.796Z",
+              "DocumentIndex": 8,
+              "Title": "index-style.css",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\index-style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\index-style.css",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\index-style.css",
+              "RelativeToolTip": "wwwroot\\css\\index-style.css",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-16T19:22:51.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAUAAAABAAAAAAAAAA==",
+              "Title": "login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\login.cshtml.cs",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\login.cshtml.cs",
+              "RelativeToolTip": "Pages\\login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T10:40:11.089Z",
+              "WhenOpened": "2026-11-16T19:06:03.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\Users\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Users\\Profile.cshtml.cs",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\Users\\Profile.cshtml.cs",
+              "RelativeToolTip": "Pages\\Users\\Profile.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:05:14.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\Users\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Users\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\Users\\Profile.cshtml",
+              "RelativeToolTip": "Pages\\Users\\Profile.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-16T19:05:01.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-16T16:10:50.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dash-styles.css",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\dash-styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\dash-styles.css",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\dash-styles.css",
+              "RelativeToolTip": "wwwroot\\css\\dash-styles.css",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAC0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-16T16:16:27.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "compiler-style.css",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\compiler-style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\compiler-style.css",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\compiler-style.css",
+              "RelativeToolTip": "wwwroot\\css\\compiler-style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-16T16:34:15.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "log-reg-style.css",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\log-reg-style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\log-reg-style.css",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\wwwroot\\css\\log-reg-style.css",
+              "RelativeToolTip": "wwwroot\\css\\log-reg-style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-16T16:24:20.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\login.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\login.cshtml",
+              "RelativeToolTip": "Pages\\login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-16T16:49:50.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\register.cshtml",
+              "RelativeDocumentMoniker": "Pages\\register.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\Pages\\register.cshtml",
+              "RelativeToolTip": "Pages\\register.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-16T16:17:29.58Z",
               "EditorCaption": ""
             }
           ]

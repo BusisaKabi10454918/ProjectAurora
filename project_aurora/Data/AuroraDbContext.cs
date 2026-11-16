@@ -13,6 +13,12 @@ public class AuroraDbContext : DbContext
 
     public DbSet<User> Users => Set<User>();
 
+    public DbSet<AppAdmin> Admins => Set<AppAdmin>();
+
+    public DbSet<AdminCode> AdminCodes => Set<AdminCode>();
+
+    public DbSet<ChallengeSubmission> ChallengeSubmissions => Set<ChallengeSubmission>();
+
     public DbSet<Challenge> Challenges => Set<Challenge>();
 
     public DbSet<CommunityPost> CommunityPosts => Set<CommunityPost>();

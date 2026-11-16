@@ -8,85 +8,155 @@ namespace project_aurora.Pages;
 
 public class registerModel : PageModel
 {
+    public string validationResult { get; set; } = string.Empty;
+
     private readonly AuroraDbContext _context;
-    
-    public registerModel(AuroraDbContext context)
+    private readonly VerificationServices _verificationServices;
+
+    public registerModel(AuroraDbContext context, VerificationServices verifyer)
     {
         _context = context;
+        _verificationServices = verifyer;
     }
 
-    public async Task<IActionResult> OnPostAsync()
+    [BindProperty]
+    public string FirstName { get; set; } = "";
+
+    [BindProperty]
+    public string LastName { get; set; } = "";
+
+    [BindProperty]
+    public string Email { get; set; } = "";
+
+    [BindProperty]
+    public string Username { get; set; } = "";
+
+    [BindProperty]
+    public string Password { get; set; } = "";
+
+    [BindProperty]
+    public string ConfirmPassword { get; set; } = "";
+
+    [BindProperty]
+    public string AdminCode { get; set; } = "";
+
+    public void OnPost()
     {
-        var firstName = Request.Form["first-name"].ToString();
-        var lastName = Request.Form["last-name"].ToString();
-        var username = Request.Form["username"].ToString();
-        var password = Request.Form["password"].ToString();
-        var confirmPassword = Request.Form["confirm-password"].ToString();
-        var email = Request.Form["email"].ToString();
-        var adminCode = Request.Form["admin-code"].ToString();
+        string firstName = FirstName;
+        string lastName = LastName;
+        string username = Username;
+        string email = Email;
+        string password = Password;
+        string confirmPassword = ConfirmPassword;
+        string adminCode = AdminCode;
+        bool adminStatus = false;
 
-        //Setup a new user object, and prepare the checks, after all the checks are done, we will save the user to the database.
-        var user = new User();
 
-        //These fields shouldnt be empty, they are required fields, if they are empty we will return an error message to the user.
-        if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(username) 
-            || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword) || string.IsNullOrEmpty(email))
-        {
-            ModelState.AddModelError(string.Empty, "All fields are required.");
-            return Page();
-        }
 
-        //Verify the username is unique
-        if (await _context.Users.AnyAsync(u => u.Username == username))
-        {
-            ModelState.AddModelError(string.Empty, "Username already exists.");
-            return Page();
-        }
+        string check_A = _verificationServices.passwordStrength(password);
 
-        //Verify the email is unique
-        if (await _context.Users.AnyAsync(u => u.Email == email))
-        {
-            ModelState.AddModelError(string.Empty, "Email already exists.");
-            return Page();
-        }
-
-        //Verify that the password and confirm password fields match
+        //Password and confirm password must match
         if (password != confirmPassword)
         {
-            ModelState.AddModelError(string.Empty, "Passwords do not match.");
-            return Page();
+            validationResult = "VER-REG-1004: PASSWORDS DO NOT MATCH";
+            return;
         }
 
-        //If there is an admin code in the field verify it is correct, if it is correct set the isAdmin field to true
-        if (!string.IsNullOrEmpty(adminCode))
+        //Check if the password is strong enough and if the credentials are valid
+        if (check_A != "VER-PWD-0000")
         {
+            validationResult = check_A;
+            return;
+        }
 
-            //It isnt empty so verify it matches the admin code.
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "a-c.txt");
-            string hashedCode = System.IO.File.ReadAllText(path).Trim();
-            if (BCrypt.Net.BCrypt.Verify(adminCode, hashedCode))
+        string check_B = _verificationServices.checkCredentials(firstName, lastName, username, email);
+
+        //Check if the credentials are valid
+        if (check_B != "VER-REG-0000: REGISTRATION SUCCESSFUL")
+        {
+            validationResult = check_B;
+            return;
+        }
+
+        //If all checks pass, create a new user and save to the database
+        string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
+
+        //Check on their admin status
+        adminStatus = _verificationServices.VerifyAdminCode(adminCode);
+
+        User newUser = new User(firstName, lastName, username, email, passwordHash, adminStatus);
+
+
+        if (!String.IsNullOrWhiteSpace(adminCode))
+        {
+            if (adminStatus)
             {
-                user.isAdmin = true;
+                try
+                {
+                    using var newAdminTransaction =
+                        _context.Database.BeginTransaction();
+
+                    _context.Users.Add(newUser);
+                    _context.SaveChanges();
+
+                    AppAdmin newAdmin = new AppAdmin(newUser.Id);
+                    _context.Admins.Add(newAdmin);
+
+                    var codes = _context.AdminCodes
+                    .Where(c => !c.NewAdminVerified && c.ExpiryDate > DateTime.UtcNow)
+                    .ToList();
+
+                    AdminCode? ad = codes.FirstOrDefault(
+                        c => BCrypt.Net.BCrypt.Verify(adminCode, c.CodeHash)
+                    );
+
+                    if (ad == null)
+                    {
+                        validationResult = "VER-REG-1005: INVALID OR EXPIRED ADMIN CODE";
+                        return;
+                    }
+
+                    ad.NewAdminVerified = true;
+                    ad.UsedAt = DateTime.UtcNow;
+                    ad.UsedByUserID = newUser.Id;
+
+                    _context.SaveChanges();
+                    newAdminTransaction.Commit();
+
+                    validationResult = "VER-REG-0000: REGISTRATION SUCCESSFUL";
+                    return;
+                }
+                catch
+                {
+                    validationResult = "VER-REG-1006: REGISTRATION FAILURE";
+                    return;
+                }
             }
             else
             {
-                ModelState.AddModelError(string.Empty, "Invalid admin code.");
-                return Page();
+                validationResult = "VER-REG-1005: INVALID OR EXPIRED ADMIN CODE";
+                return;
             }
         }
+        else
+        {
+            try
+            {
+                using var transaction = _context.Database.BeginTransaction();
 
-        //If all checks pass, we will hash the password and save the user to the database.
-        user.FirstName = firstName;
-        user.LastName = lastName;
-        user.Username = username;
-        user.Email = email;
-        user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(password);
-        user.CreatedAt = DateTime.Today;
+                _context.Users.Add(newUser);
+                _context.SaveChanges();
 
-        _context.Users.Add(user);
-        Console.WriteLine($"User {username} registered successfully.");
-        await _context.SaveChangesAsync();
-        return RedirectToPage("/login");
+                transaction.Commit();
+
+                validationResult = "VER-REG-0000: REGISTRATION SUCCESSFUL";
+                return;
+            }
+            catch
+            {
+                validationResult = "VER-REG-1006: REGISTRATION FAILURE";
+                return;
+            }
+        }
     }
-
 }

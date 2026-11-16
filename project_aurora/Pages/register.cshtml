@@ -24,31 +24,62 @@
     <div class="reg-container">
         <form method="post">
 
-            <label for="first-name">First Name:</label><br />
-            <input type="text" placeholder="Please enter your first name" name="first-name" required /><br />
+            <label for="FirstName">First Name:</label><br />
+            <input type="text" placeholder="Please enter your first name" name="FirstName" required /><br />
 
-            <label for="last-name">Last Name:</label><br />
-            <input type="text" placeholder="Please enter your last name" name="last-name" required /><br />
+            <label for="LastName">Last Name:</label><br />
+            <input type="text" placeholder="Please enter your last name" name="LastName" required /><br />
 
-            <label for="email">Email:</label><br />
-            <input type="email" placeholder="Please enter your email" name="email" required /><br />
+            <label for="Email">Email:</label><br />
+            <input type="email" placeholder="Please enter your email" name="Email" required /><br />
 
-            <label for="username">Username:</label><br />
-            <input type="text" placeholder="Please enter a username" name="username" required /><br />
+            <label for="Username">Username:</label><br />
+            <input type="text" placeholder="Please enter a username" name="Username" required /><br />
 
-            <label for="password">Password:</label><br />
-            <input type="password" placeholder="Please enter your password" name="password" required /><br />
+            <label for="Password">Password:</label><br />
+            <input type="password" placeholder="Please enter your password" name="Password" required /><br />
 
-            <label for="confirm-password">Confirm Password:</label><br />
-            <input type="password" placeholder="Please confirm your password" name="confirm-password" required /><br />
+            <label for="ConfirmPassword">Confirm Password:</label><br />
+            <input type="password" placeholder="Please confirm your password" name="ConfirmPassword" required /><br />
 
-            <label for="admin-code">Admin Code: (Please enter the admin code if you have one)</label><br />
-            <input type="text" placeholder="Please enter the admin code" name="admin-code" /><br />
+            <label for="AdminCode">Admin Code: (Please enter the admin code if you have one)</label><br />
+            <input type="text" placeholder="Please enter the admin code" name="AdminCode" /><br />
 
             <button type="submit">Register</button>
         </form>
 
+        <div id="error-validation" class="validation-popup">
+            <div class="popup-content">
+                <p id="error-message"></p>
+                <button type="button" id="error-close">OK</button>
+            </div>
+        </div>
+
+        <div id="success-validation" class="validation-popup">
+            <div class="popup-content">
+                <p id="success-message"></p>
+                <button type="button" id="success-close">OK</button>
+            </div>
+        </div>
+
     </div>
 
     <a id="log-link" asp-page="/login">Registered? Login here</a>
+
+    <script src="~/js/page_validation.js"></script>
+
 </body>
+@if (!string.IsNullOrEmpty(Model.validationResult))
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const message = @Html.Raw(
+                            System.Text.Json.JsonSerializer.Serialize(Model.validationResult)
+                            );
+
+            const isSuccess = message.includes("VER-REG-0000:");
+
+            showPopup(message, isSuccess);
+        });
+    </script>
+}
