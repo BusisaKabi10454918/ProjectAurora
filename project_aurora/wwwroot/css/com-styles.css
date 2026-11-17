@@ -92,7 +92,7 @@ a {
     padding: 16px 22px;
     min-height: 120px;
     border-radius: 0;
-    border-bottom: 1px solid #c8c8c8;
+    border-bottom: 1px solid #f4f4f4;
 }
 
 .question-name {
@@ -133,6 +133,9 @@ a {
     flex-shrink: 0;
 }
 
+.posts{
+    width: 60%;
+}
 
 .question-description {
     min-width: 0;
@@ -141,14 +144,6 @@ a {
     margin: 0;
     font-size: 12px;
     line-height: 1.25;
-}
-
-.community-sidebar {
-    background-color: #fff;
-    padding: 44px 28px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .new-question {
@@ -162,6 +157,183 @@ a {
     cursor: pointer;
     font: inherit;
     font-size: 13px;
+}
+
+.community-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.posts-column {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+}
+
+.community-sidebar {
+    margin-left: 4%;
+    width: 24%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+
+.new-post-btn {
+    width: 200px;
+    height: 55px;
+    background-color: #020081;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-post-btn:hover {
+    background-color: #1511B5;
+}
+
+#newPostPopup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#newPostPopup.active {
+    display: flex;
+}
+
+#newPostPopup .popup-content {
+    width: 550px;
+    max-width: 90%;
+    padding: 35px;
+    background-color: #F4F4F4;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+#newPostPopup h2 {
+    color: #020081;
+    text-align: center;
+    font-size: 26px;
+    margin: 0 0 25px;
+}
+
+#newPostPopup form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#newPostPopup label {
+    font-size: 17px;
+    font-weight: bold;
+    color: #222;
+}
+
+#newPostPopup input,
+#newPostPopup textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
+    background-color: white;
+    font-family: inherit;
+    font-size: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#newPostPopup input:focus,
+#newPostPopup textarea:focus {
+    border-color: #020081;
+}
+
+#newPostPopup textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+#newPostPopup .popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#newPostPopup .popup-buttons button {
+    flex: 1;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#newPostPopup .popup-buttons button[type="submit"] {
+    background-color: #020081;
+    color: white;
+}
+
+#newPostPopup .popup-buttons button[type="button"] {
+    background-color: #BDBDBD;
+    color: #222;
+}
+
+#newPostPopup .popup-buttons button:hover {
+    opacity: 0.85;
+}
+
+.vote-form {
+    display: inline;
+    margin: 0;
+}
+
+.vote-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.vote-button img {
+    cursor: pointer;
+}
+
+.challenge-submit-btn {
+    background-color: #020081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    min-width: 160px;
+    min-height: 45px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.challenge-submit-btn:hover {
+    background-color: #1511B5;
+    transform: translateY(-2px);
+}
+
+.challenge-submit-btn:active {
+    transform: translateY(0);
 }
 
 @media (max-width: 700px) {

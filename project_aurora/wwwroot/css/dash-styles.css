@@ -78,3 +78,99 @@ h1{
     background-color: snow;
     color: red;
 }
+
+/* Challenge Creation Popup */
+
+#challengePopup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#challengePopup.active {
+    display: flex;
+}
+
+#challengePopup .popup-content {
+    width: 550px;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 35px;
+    background-color: #F4F4F4;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+#challengePopup h2 {
+    color: #020081;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#challengePopup form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#challengePopup form > label {
+    font-weight: bold;
+}
+
+#challengePopup input:not([type="checkbox"]),
+#challengePopup textarea {
+    padding: 12px;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#challengePopup textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.language-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.language-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#challengePopup .popup-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#challengePopup .popup-buttons button {
+    flex: 1;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#challengePopup .popup-buttons button[type="submit"] {
+    background-color: #020081;
+    color: white;
+}
+
+#challengePopup .popup-buttons button[type="button"] {
+    background-color: #BDBDBD;
+    color: #222;
+}

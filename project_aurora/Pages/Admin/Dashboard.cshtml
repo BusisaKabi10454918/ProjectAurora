@@ -26,23 +26,15 @@
     <div class="admin-menu">
 
         <button type="button" class="admin-button">
-            Manage Users
+            Review Challenges
+        </button>
+
+        <button type="button" class="admin-button" id="createChallengeBtn">
+            Create New Challenge
         </button>
 
         <button type="button" class="admin-button">
-            Manage Challenges
-        </button>
-
-        <button type="button" class="admin-button">
-            Manage Community
-        </button>
-
-        <button type="button" class="admin-button">
-            Modern Settings
-        </button>
-
-        <button type="button" class="admin-button">
-            Add New Challenge
+            Generate New Admin Code
         </button>
 
         <button type="button" class="logout-button">
@@ -50,5 +42,67 @@
         </button>
 
     </div>
-    
+    <div id="challengePopup" class="popup-overlay">
+        <div class="popup-content">
+
+            <h2>Create New Challenge</h2>
+
+            <form method="post" asp-page-handler="CreateChallenge">
+
+                <label for="Title">Challenge Title</label>
+                <input type="text"
+                       id="Title"
+                       name="Title"
+                       maxlength="150"
+                       placeholder="Enter challenge title"
+                       required />
+
+                <label for="Description">Description</label>
+                <textarea id="Description"
+                          name="Description"
+                          placeholder="Describe the challenge..."
+                          required></textarea>
+
+                <label for="Answer">Expected Answer</label>
+                <textarea id="Answer"
+                          name="Answer"
+                          placeholder="Enter the expected solution..."
+                          required></textarea>
+
+                <label>Accepted Languages</label>
+
+                <div class="language-options">
+                    <label>
+                        <input type="checkbox" name="AllowedLanguages" value="CSharp" />
+                        C#
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="AllowedLanguages" value="Java" />
+                        Java
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="AllowedLanguages" value="Bash" />
+                        Bash
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="AllowedLanguages" value="Python" />
+                        Python
+                    </label>
+                </div>
+
+                <div asp-validation-summary="All"></div>
+
+                <div class="popup-buttons">
+                    <button type="submit">Create Challenge</button>
+                    <button type="button" id="cancelChallengeBtn">Cancel</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="~/js/admin-challenge.js"></script>
 </body>

@@ -18,6 +18,10 @@ namespace project_aurora.Models
         public Guid ChallengeID { get; set; }
 
         [Required]
+        [StringLength(100)]
+        public string FileName { get; set; } = string.Empty;
+
+        [Required]
         public string SubmissionFile { get; set; } = string.Empty;
 
         [Required]

@@ -20,65 +20,65 @@ build_property.TargetFrameworkVersion = v10.0
 build_property.EntryPointFilePath = 
 build_property.RootNamespace = project_aurora
 build_property.RootNamespace = project_aurora
-build_property.ProjectDir = C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora_community_judge0build\
+build_property.ProjectDir = C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora_community_judge0build
+build_property.MSBuildProjectDirectory = C:\Users\SBKan\OneDrive\Documents\source\repos\project_aurora
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/Admin/Dashboard.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/challenges.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/challenges.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2hhbGxlbmdlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/community.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/community.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tbXVuaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/compiler.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/compiler.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcGlsZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/Index.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/login.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/register.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/test-judge0.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/test-judge0.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdC1qdWRnZTAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/Users/Profile.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/Users/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/_ViewImports.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/_ViewStart.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora_community_judge0build/Pages/Shared/_Layout.cshtml]
+[C:/Users/SBKan/OneDrive/Documents/source/repos/project_aurora/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lofu7at7o9

@@ -3513,11 +3513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\project_aurora.csproj",
+      "projectUniqueName": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\project_aurora.csproj",
       "projectName": "project_aurora",
-      "projectPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\project_aurora.csproj",
+      "projectPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\project_aurora.csproj",
       "packagesPath": "C:\\Users\\SBKan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\obj\\",
+      "outputPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

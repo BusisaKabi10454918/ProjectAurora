@@ -78,6 +78,10 @@ namespace project_aurora.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("AllowedLanguages")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Answer")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -103,6 +107,11 @@ namespace project_aurora.Migrations
 
                     b.Property<Guid>("ChallengeID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime>("SubmissionDate")
                         .HasColumnType("datetime2");

@@ -25,4 +25,7 @@ public class Challenge
 
     [Required]
     public string Answer { get; set; } = string.Empty;
+
+    [Required]
+    public string AllowedLanguages { get; set; } = string.Empty;
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oFZeR/3AufI=",
+  "dgSpecHash": "9H7wokd7NiI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora_community_judge0build\\project_aurora.csproj",
+  "projectFilePath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\project_aurora\\project_aurora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SBKan\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\SBKan\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
